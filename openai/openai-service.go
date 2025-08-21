@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/dchaykin/mygolib/log"
 	"github.com/openai/openai-go"
 	"github.com/openai/openai-go/option"
 	"github.com/openai/openai-go/packages/param"
-	"github.com/stock_analyst/mygolib/log"
 )
 
 func NewAiCommunicationService(prompt string) *AiCommunicationService {
